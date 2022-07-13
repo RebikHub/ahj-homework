@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#conteiner {
+    display: flex;
+    margin: 40px auto auto auto;
+    max-width: 830px;
+    justify-content: space-between;
+}
+
+#stats, #tasks {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+#tasks {
+
+}
+
+.stats-title, .tasks-title {
+    margin-bottom: 0.7rem;
+}
+
+.stats-projects {
+
+}
+
+.stats-count, .tasks-project-status, .tasks-project-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border: 1px solid black;
+    /* border-bottom: 0; */
+    height: 2.5rem;
+}
+ .bot {
+    border-bottom: 1px solid black;
+ }
+
+.count-name {
+    margin-left: 1rem;
+    align-self: center;
+}
+
+.count-status {
+    margin-right: 2.6rem;
+    align-self: center;
+}
+
+.count-number {
+    margin-right: 3rem;
+    align-self: center;
+    width: 1.25rem;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+.tasks-projects {
+
+}
+
+.tasks-project-header {
+    position: relative;
+}
+
+.project-choice {
+    align-self: center;
+    margin-left: 1rem;
+}
+
+.project-name, .task-name {
+    align-self: center;
+    margin-right: auto;
+    margin-left: 0.5rem;
+}
+
+.project-name:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.task-status:hover {
+    cursor: pointer;
+}
+
+
+.task-status {
+    align-self: center;
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+
+
+.projects {
+    position: absolute;
+    display: flex;
+    width: 13rem;
+    height: 8rem;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 0.7rem;
+    background-color: white;
+    z-index: 1;
+    top: 0.3rem;
+    left: 0.4rem;
+}
+
+.project-title {
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.projects-names {
+    margin-left: 0.4rem;
+}
+
+.p-name {
+    margin-bottom: 0.5rem;
+}
+
+.p-name:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.check {
+    background-image: url(../image/check.png);
+    background-size: contain;
+}
+
+.none {
+    display: none;
+}
+
+button {
+    width: 15px;
+    height: 15px;
+    background-color: blue;
+}

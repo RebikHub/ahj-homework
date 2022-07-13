@@ -1,0 +1,36 @@
+body {
+    color: #999;
+}
+
+#game {
+    display: flex;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(9, 92, 60);
+    flex-wrap: wrap;
+}
+
+.game-cell {
+    width: 98px;
+    height: 98px;
+    border: 1px solid white;
+}
+
+.picture {
+    background-image: url('../img/goblin.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cursor {
+    cursor: url('../img/bam.png'), auto;
+}
+
+.points {
+    width: 400px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+}

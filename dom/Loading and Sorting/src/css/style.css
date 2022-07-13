@@ -1,0 +1,12 @@
+#imdb-list {
+    width: 500px;
+    height: 400px;
+    font-size: 22px;
+    margin: auto;
+}
+
+td {
+    border: 1px solid grey;
+    padding-left: 10px;
+    padding-right: 10px;
+}

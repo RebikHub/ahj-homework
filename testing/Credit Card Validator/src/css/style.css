@@ -1,0 +1,119 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    color: #999;
+}
+
+#validator {
+    margin: auto;
+    margin-top: 50px;
+    width: 500px;
+    height: 250px;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    color: black;
+}
+
+ul {
+    display: flex;
+    margin: 10px 0;
+    height: 25px;
+    padding-left: 0;
+    list-style: none;
+}
+
+li {
+    padding-left: 0;
+    list-style: none;
+}
+
+.card {
+    width: 39px;
+    height: 25px;
+    margin-right: 4px;
+}
+
+.disable {
+    opacity: 0.3;
+}
+
+.visa {
+    background-image: url(../img/visa.png);
+    background-size: cover;
+}
+
+.master-card {
+    background-image: url(../img/mastercard.png);
+    background-size: cover;
+}
+
+.american-express {
+    background-image: url(../img/american_express.png);
+    background-size: cover;
+}
+
+.jcb {
+    background-image: url(../img/jcb.png);
+    background-size: cover;
+}
+
+.maestro {
+    background-image: url(../img/maestro.png);
+    background-size: cover;
+}
+
+.discover {
+    background-image: url(../img/discover.png);
+    background-size: cover;
+}
+
+.mir {
+    background-image: url(../img/mir.png);
+    background-size: cover;
+}
+
+button {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    padding: 6px 12px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+input {
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.valid {
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    background-image: url(../img/check.png);
+}
+
+.not-valid {
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    background-image: url(../img/not-check.png);
+}
